@@ -1,0 +1,46 @@
+ID - find element by id
+Name
+Css
+ClassName
+linkTest
+
+Customized CSS Syntax:
+tagname[attribute='value']
+
+cheking in the console 
+for css
+$("input[name='name']")
+input[name='name']
+id="exampleInputPassword1"
+
+for ClassName[class*='alert-success'] #class name alert-success
+
+Customized CSS Syntax:
+tagname[attribute='value']
+ex: [attribute*='value']
+input[name='name']
+ # css
+
+Customized xpath Syntax:
+//tagname[@attribute=value]
+ex:[contains(@attribute,'value')]
+//*[contains(@class,'alert-success')]
+$x("//input[name='name']")
+//div[@class='products'] 
+
+
+
+
+*******************************
+*******************************
+
+Traversing Tags creating xpath
+
+xpath = parentTag/ChildTag
+css = parentTag ChildTag
+
+
+************************
+************************
+
+assert "success" in message
